@@ -41,10 +41,10 @@ Add the dependency
 ```gradle
 dependencies {
 	   implementation 'com.github.annhienktuit:CircularImageviewRotation:1.0.8'
-	}
+}
 ```
 
-Note: If this error appear: "Build was configured to prefer settings repositories over project repositories" you can workaround with this:
+Note: If this error appear: "Build was configured to prefer settings repositories over project repositories" you can workaround like this:
 
 Replace the line:
 ```
@@ -62,9 +62,9 @@ var animation: RotateAnimation
 
 animation = RotateAnimation(this, imageview)
 
-animation.startAnimation() //start
-
 animation.setDuration(20000) //set duration
+
+animation.startAnimation() //start
 
 animation.pause() //pause
 
