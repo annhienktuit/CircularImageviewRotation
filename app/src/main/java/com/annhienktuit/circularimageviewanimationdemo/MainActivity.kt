@@ -6,16 +6,12 @@ import android.os.Build
 import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatDelegate
 import com.annhienktuit.circularrotationimageview.CircularImageView
 import com.annhienktuit.circularrotationimageview.RotateAnimation
 import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.source.MediaSource
 import com.google.android.exoplayer2.ui.PlayerView
-import kotlinx.android.synthetic.main.activity_main.*
 import com.google.android.exoplayer2.*
 import com.google.android.exoplayer2.source.DefaultMediaSourceFactory
 import com.google.android.exoplayer2.source.ProgressiveMediaSource
