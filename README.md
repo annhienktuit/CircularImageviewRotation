@@ -15,11 +15,12 @@ It uses custom View and support animation
 
 
 
-
 **Sample**
 
+<p align="center">
+  <img src="https://i.imgur.com/I61nYTp.gif" width="300" height="530" />
+</p>
 
-![](![](https://i.imgur.com/kAS4GOv.gif))
 
 
 ## Installation
