@@ -11,7 +11,7 @@ android {
         minSdk 21
         targetSdk 31
         versionCode 1
-        versionName "1.0.5"
+        versionName "1.0.7"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -46,6 +46,9 @@ project.afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
+                groupId = 'com.annhienktuit.CircularImageviewRotation'
+                artifactId = 'CircularImageviewRotation'
+                version = '1.0.8'
             }
         }
     }
