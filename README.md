@@ -26,7 +26,7 @@ It uses custom View and support animation
 ## Installation
 **Gradle**
 
-Add it in your root build.gradle at the end of repositories:
+Add it in your root **build.gradle** at the end of repositories:
 
 
 ```gradle
@@ -40,27 +40,25 @@ Add the dependency
 
 ```gradle
 dependencies {
-	   implementation 'com.github.annhienktuit:CircularImageviewRotation:1.0.8'
+	implementation 'com.github.annhienktuit:CircularImageviewRotation:1.0.8'
 }
 ```
 
 Note: If this error appear: "Build was configured to prefer settings repositories over project repositories" you can workaround like this:
 
 Replace the line:
-```
+```gradle
 repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 ```
 with
-```
+```gradle
 repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
 ```
 ## Usage/Examples
 
 ```kotlin
 var imageview: CircularImageView
-var animation: RotateAnimation
-
-animation = RotateAnimation(this, imageview)
+var animation: RotateAnimation = RotateAnimation(this, imageview)
 
 animation.setDuration(20000) //set duration
 
